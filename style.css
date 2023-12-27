@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap');
+
+body, html {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+}
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+.nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #000;
+    opacity: 0.95;
+    font-size: 16px;
+    font-weight: 400;
+}
+.nav__link:first-child {
+    padding-left: 0;
+}
+.home__container {
+    max-width: 65%;
+}
+.about__block {
+    padding-top: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info__block {
+    max-width: 497px;
+}
+.title-greet {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+}
+.additional-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: #21243D;
+    line-height: 2rem;
+}
+
+.download-btn {
+   margin-top: 38px; 
+   width: 208px;
+   height: 47px;
+   background-color: #FF6464;
+   border-radius: 30px;
+   transition: 0.1s ease-in-out;
+}
+.download-resume {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.9;
+    padding-top: 8px;
+    padding-left: 45px;
+}
+.download-btn:hover {
+    background-color: #FF6464;
+    border-radius: 10px;
+}
+.download-btn:hover::after {
+    transition: 0.1s ease-in-out;
+}
+.my__page {
+
+    border-radius: 50%;
+    max-width: 500px;
+
+}
+.footer-text{
+  text-align: center;
+}
