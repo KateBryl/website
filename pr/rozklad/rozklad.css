@@ -1,0 +1,122 @@
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    margin-top: 30px;
+  }
+  .nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #000;
+    opacity: 0.95;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+.table-container {
+    overflow-x: auto;
+}
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+  
+.headday,
+.headdate,
+.headcol {
+    background-color: #c3f093;
+}
+  
+.closed {
+    background-color: #a39c9c;
+}
+  
+.lesson-color-block {
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+  
+.lesson-color-block td {
+    position: relative;
+}
+  
+.lesson {
+    font-weight: bold;
+    display: block;
+}
+  
+.start,
+.end {
+    display: block;
+    font-size: 12px;
+    color: #857e7e;
+}
+  
+
+[data-toggle="tooltip"] {
+    position: relative;
+    cursor: pointer;
+}
+  
+.tooltip-inner {
+    max-width: 300px;
+    padding: 8px;
+    color: #fff;
+    text-align: left;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+  
+ 
+[data-toggle="popover"] {
+    position: relative;
+    cursor: pointer;
+}
+  
+.popover {
+    max-width: 300px;
+}
+  
+.popover-title {
+    font-weight: bold;
+}
+  
+.popover-content {
+    padding: 8px;
+}
+
+.lesson-1 {
+    background-color: #a7c8fa; 
+} 
+      
+.lesson-2 {
+    background-color: #b3fce2; 
+} 
+
+.lesson-4 {
+    background-color: #e8c1eb; 
+} 
+
+.lesson-5 { 
+    background-color: #f7f9ab; 
+} 
+
+.lesson-6 {
+    background-color: #a1fca8; 
+} 
