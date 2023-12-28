@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap');
+
 body {
-    background-color: rgb(143, 235, 227);
-    color: #000000; /* Колір тексту на фоні */
+    font-family: 'Heebo', sans-serif;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -16,16 +17,17 @@ body {
 .header__container {
     display: flex;
     justify-content: flex-end;
-    margin-top: 30px;
+    padding-top: 30px;
+    margin-right: 45px;
 }
 .nav__link {
     text-transform: uppercase;
     text-decoration: none;
     padding-left: 30px;
-    color: #000;
+    color: #383838;
     opacity: 0.95;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
 }
 .nav__link:first-child {
     padding-left: 0;
@@ -38,11 +40,13 @@ h1 {
     margin-left: 20px; 
     font-size: 24px;
     font-weight: 700; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container {
     display: flex;
-    max-width: 1000px;
+    padding-top: 7%;
+    align-items: center;
+    max-width: 75%;
+    justify-content: space-between;
     margin: auto;
 }
 
@@ -50,3 +54,27 @@ h1 {
     max-width: 500px;
     border-radius: 50%;
 }
+
+html, body {
+    width: 100%;
+    height: 100%;
+ }
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('http://unsplash.it/1200x800') center center no-repeat;
+    background-size: cover;
+    
+ }
+  .bg-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: 0.6;
+    z-index: -1;
+ }
